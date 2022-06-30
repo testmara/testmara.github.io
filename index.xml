@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>@dilag_Luc</title>
-    <link>http://example.org/</link>
+    <link>https://testmara.github.io/</link>
     <description>Recent content on @dilag_Luc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>dilag_Luc 2022</copyright>
-    <lastBuildDate>Tue, 28 Jun 2022 00:21:59 +0100</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Jun 2022 00:21:59 +0100</lastBuildDate><atom:link href="https://testmara.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://example.org/about/</link>
+      <link>https://testmara.github.io/about/</link>
       <pubDate>Tue, 28 Jun 2022 02:56:42 +0100</pubDate>
       
-      <guid>http://example.org/about/</guid>
+      <guid>https://testmara.github.io/about/</guid>
       <description>About me </description>
     </item>
     
     <item>
       <title>Lorem Ipsum</title>
-      <link>http://example.org/blog/lorem-ipsum/</link>
+      <link>https://testmara.github.io/blog/lorem-ipsum/</link>
       <pubDate>Tue, 28 Jun 2022 01:48:27 +0100</pubDate>
       
-      <guid>http://example.org/blog/lorem-ipsum/</guid>
+      <guid>https://testmara.github.io/blog/lorem-ipsum/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur&amp;hellip;&lt;/p&gt;
 &lt;h2 id=&#34;what-is-lorem-ipsum&#34;&gt;What is Lorem Ipsum?&lt;/h2&gt;
 &lt;p&gt;In mollis cursus ligula, et venenatis neque maximus ut&amp;hellip;&lt;/p&gt;

@@ -3,52 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/about/</loc>
+    <loc>https://testmara.github.io/about/</loc>
     <lastmod>2022-06-28T02:56:42+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://testmara.github.io/categories/</loc>
     <lastmod>2022-06-28T01:48:27+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/ghjg/</loc>
+    <loc>https://testmara.github.io/categories/ghjg/</loc>
     <lastmod>2022-06-28T01:48:27+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/jui/</loc>
+    <loc>https://testmara.github.io/categories/jui/</loc>
     <lastmod>2022-06-28T01:48:27+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/blog/lorem-ipsum/</loc>
+    <loc>https://testmara.github.io/blog/lorem-ipsum/</loc>
     <lastmod>2022-06-28T01:48:27+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/rbb/</loc>
+    <loc>https://testmara.github.io/categories/rbb/</loc>
     <lastmod>2022-06-28T01:48:27+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/vgygj/</loc>
+    <loc>https://testmara.github.io/categories/vgygj/</loc>
     <lastmod>2022-06-28T01:48:27+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/blog/</loc>
+    <loc>https://testmara.github.io/blog/</loc>
     <lastmod>2022-06-28T01:43:53+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://testmara.github.io/</loc>
     <lastmod>2022-06-28T00:21:59+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://testmara.github.io/tags/</loc>
   </url>
   
 </urlset>

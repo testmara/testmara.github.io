@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>jui on @dilag_Luc</title>
-    <link>http://example.org/categories/jui/</link>
+    <link>https://testmara.github.io/categories/jui/</link>
     <description>Recent content in jui on @dilag_Luc</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>dilag_Luc 2022</copyright>
-    <lastBuildDate>Tue, 28 Jun 2022 01:48:27 +0100</lastBuildDate><atom:link href="http://example.org/categories/jui/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Jun 2022 01:48:27 +0100</lastBuildDate><atom:link href="https://testmara.github.io/categories/jui/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lorem Ipsum</title>
-      <link>http://example.org/blog/lorem-ipsum/</link>
+      <link>https://testmara.github.io/blog/lorem-ipsum/</link>
       <pubDate>Tue, 28 Jun 2022 01:48:27 +0100</pubDate>
       
-      <guid>http://example.org/blog/lorem-ipsum/</guid>
+      <guid>https://testmara.github.io/blog/lorem-ipsum/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur&amp;hellip;&lt;/p&gt;
 &lt;h2 id=&#34;what-is-lorem-ipsum&#34;&gt;What is Lorem Ipsum?&lt;/h2&gt;
 &lt;p&gt;In mollis cursus ligula, et venenatis neque maximus ut&amp;hellip;&lt;/p&gt;
