@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ghjg on @dilag_Luc</title>
+    <link>http://example.org/categories/ghjg/</link>
+    <description>Recent content in ghjg on @dilag_Luc</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>dilag_Luc 2022</copyright>
+    <lastBuildDate>Tue, 28 Jun 2022 01:48:27 +0100</lastBuildDate><atom:link href="http://example.org/categories/ghjg/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lorem Ipsum</title>
+      <link>http://example.org/blog/lorem-ipsum/</link>
+      <pubDate>Tue, 28 Jun 2022 01:48:27 +0100</pubDate>
+      
+      <guid>http://example.org/blog/lorem-ipsum/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;what-is-lorem-ipsum&#34;&gt;What is Lorem Ipsum?&lt;/h2&gt;
+&lt;p&gt;In mollis cursus ligula, et venenatis neque maximus ut&amp;hellip;&lt;/p&gt;
+&lt;p&gt;Vivamus ut tincidunt urna. Nam eu mollis dolor&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;in-mollis-cursus-ligula&#34;&gt;In mollis cursus ligula&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et odio non ex laoreet condimentum. Quisque dignissim auctor varius. Vestibulum sed turpis lobortis nulla ultrices scelerisque. Sed auctor condimentum urna in porttitor. Phasellus id nunc eu ex feugiat finibus. Donec ac eros luctus, faucibus ante eget, dapibus orci. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque lorem erat,&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
